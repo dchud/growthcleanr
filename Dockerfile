@@ -18,4 +18,5 @@ RUN R -e "install.packages(c( \
 RUN R -e "library(devtools); \
     devtools::install_github('carriedaymont/growthcleanr')"
 
-CMD R
+ADD exec/gcdriver.R /usr/local/bin/
+RUN chmod +x /usr/local/bin/gcdriver.R
