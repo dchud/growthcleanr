@@ -7,6 +7,8 @@ vignette: >
   %\usepackage[utf8]{inputenc}
 ---
 
+# This is a test, for #66
+
 ## R setup
 
 To get started with `growthcleanr`, the `growthcleanr` package must be
